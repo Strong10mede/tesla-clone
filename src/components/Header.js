@@ -117,6 +117,7 @@ const CustomMenu = styled(MenuIcon)`
 `;
 
 const BurgerNav = styled.div`
+  height: 100vh;
   overflow-y: auto;
   position: fixed;
   top: 0;
