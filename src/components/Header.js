@@ -77,7 +77,7 @@ function Header() {
 export default Header;
 
 const Container = styled.div`
-backdrop-filter: blur(10px)
+  backdrop-filter: blur(10px);
   z-index: 1;
   min-height: 60px;
   position: fixed;
