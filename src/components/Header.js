@@ -58,19 +58,16 @@ function Header() {
           <a href="#">Charging</a>
         </li>
         <li>
-          <a href="#">Existing Inventory</a>
+          <a href="#">Powerwall</a>
         </li>
         <li>
-          <a href="#">Existing Inventory</a>
+          <a href="#">Commercial Energy</a>
         </li>
         <li>
-          <a href="#">Existing Inventory</a>
+          <a href="#">Utilities</a>
         </li>
         <li>
-          <a href="#">Existing Inventory</a>
-        </li>
-        <li>
-          <a href="#">Existing Inventory</a>
+          <a href="#">Test Drive</a>
         </li>
       </BurgerNav>
     </Container>
@@ -119,6 +116,7 @@ const CustomMenu = styled(MenuIcon)`
 `;
 
 const BurgerNav = styled.div`
+  overflow-y: auto;
   position: fixed;
   top: 0;
   bottom: 0;
