@@ -11,4 +11,6 @@ const carSlice = createSlice({
 });
 
 export const selectCars = (state) => state.car.cars;
+//in select.car.cars car is the name value
 export default carSlice.reducer;
+//have to esport some kind of reduce event if it is empty
