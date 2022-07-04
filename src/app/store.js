@@ -5,3 +5,5 @@ export const store = configureStore({
     car: carReducer,
   },
 });
+
+//car is name of carSlice
